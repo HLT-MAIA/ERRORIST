@@ -1,4 +1,31 @@
 # ErrorIST
-Automatic Error Generation for Machine Translation Evaluation
 
-Soon it will be available!
+**ErrorIST** is a framework dedicated to the task of adding fine-grained error types to text, and, as much as possible, to automatically evaluate an editor's proficiency, which is usually a manual and expensive task
+
+
+**ErrorIST** implements common error types, identified in frameworks such as the Multidimensional Quality Metric (MQM), and in taxonomies dedicated to translation errors such as the errors presented in [Costa, et. al. 2015](https://link.springer.com/article/10.1007/s10590-015-9169-0).
+
+The following table summarizes the taxonomy of errors supported by **ErrorIST**:
+
+- Punctuation (omission and addition)(ex: _I found **,** the clowns, Bob, and Clyde._);
+- Capitalisation (ex: _**i** think my poor Slipper got dirty!_);
+- Spelling (ex: _I have **three** friends._);
+- Omission (content or function words) (ex: _His hat was []_);
+- Addition (content or function words) (ex: _He bought a **already** hat._).
+- Misselection
+  - Word-class (ex: _The **cutely** bird is on the branch._);
+  - Verbs (tense, person or both) (ex: _He had **buy** a suit-case._);
+  - Agreement (gender, number or both; or person) (ex: _**Os lobo** fugiu._/_The Wolf run away_. In Portuguese, _Os_ is plural and _lobo_ singular.);
+  - Contraction (ex: _Ela senta-se **em a** cadeira._/_She seats in the chair_. In Portuguese, _em_ + _a_ = _na_.).
+\end{itemize}
+  - Misordering (ex: _I **beautiful** like the [] color of your eyes._).
+  - "Confusion of senses": when a word was translated into one of its possible meanings, but, in the given context, not the correct one.
+
+## ErrorIST Architecture:**
+
+**ErrorIST** is  composed  of  three  modules:   **Error Generator**,  **Tracer**,  and **Evaluator**:
+![errorist (1)](https://user-images.githubusercontent.com/17256847/122262890-c85ba980-cecd-11eb-8a16-bceffbab908e.jpg)
+
+**Error Generator** generates the errors, **Tracer** analyses how the generated errors were corrected and **Evaluator** grades the modifications detected by **Tracer**; if it is not possible to automatically evaluate an error, a manual evaluation is requested.
+
+(Code will be available soon!)

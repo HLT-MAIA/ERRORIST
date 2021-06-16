@@ -21,7 +21,7 @@ The following table summarizes the taxonomy of errors supported by **ErrorIST**:
   - Misordering (ex: _I **beautiful** like the [] color of your eyes._).
   - "Confusion of senses": when a word was translated into one of its possible meanings, but, in the given context, not the correct one.
 
-## ErrorIST Architecture:**
+## ErrorIST Architecture:
 
 **ErrorIST** is  composed  of  three  modules:   **Error Generator**,  **Tracer**,  and **Evaluator**:
 ![errorist (1)](https://user-images.githubusercontent.com/17256847/122262890-c85ba980-cecd-11eb-8a16-bceffbab908e.jpg)

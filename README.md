@@ -32,4 +32,4 @@ A second version of the code can be [downloaded here](https://drive.google.com/f
 
 ## Bibliography
 
-Two thesis contributed to the building of ErrorIST. They were developed by Tiago  Santos and Raquel Cristovão, and can be found [here](  https://fenix.tecnico.ulisboa.pt/downloadFile/1970719973966256/Thesis.pdf) and [here](https://fenix.tecnico.ulisboa.pt/downloadFile/281870113704582/76513%20-raquel%20-%20cristovao.pdf).
+Two thesis contributed to the building of ErrorIST. They were developed by Tiago  Santos and Raquel Cristovão, and can be found [here](  https://fenix.tecnico.ulisboa.pt/downloadFile/1970719973966256/Thesis.pdf) and [here](https://fenix.tecnico.ulisboa.pt/downloadFile/1407770020546507/76513%20-Raquel%20-%20Cristovao.pdf).

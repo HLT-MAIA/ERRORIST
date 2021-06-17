@@ -17,9 +17,8 @@ The following table summarizes the taxonomy of errors supported by **ErrorIST**:
   - Verbs (tense, person or both) (ex: _He had **buy** a suit-case._);
   - Agreement (gender, number or both; or person) (ex: _**Os lobo** fugiu._/_The Wolf run away_. In Portuguese, _Os_ is plural and _lobo_ singular.);
   - Contraction (ex: _Ela senta-se **em a** cadeira._/_She seats in the chair_. In Portuguese, _em_ + _a_ = _na_.).
-\end{itemize}
-  - Misordering (ex: _I **beautiful** like the [] color of your eyes._).
-  - "Confusion of senses": when a word was translated into one of its possible meanings, but, in the given context, not the correct one.
+- Misordering (ex: _I **beautiful** like the [] color of your eyes._).
+- "Confusion of senses": when a word was translated into one of its possible meanings, but, in the given context, not the correct one.
 
 ## ErrorIST Architecture:
 

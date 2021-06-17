@@ -27,6 +27,9 @@ The following table summarizes the taxonomy of errors supported by **ErrorIST**:
 
 **Error Generator** generates the errors, **Tracer** analyses how the generated errors were corrected and **Evaluator** grades the modifications detected by **Tracer**; if it is not possible to automatically evaluate an error, a manual evaluation is requested.
 
-# CODE 2.0
+## CODE 2.0
 A second version of the code can be [downloaded here](https://drive.google.com/file/d/1xDX6o9IEKuV0ubjJwdtshYkOYBxUkKDl/view?usp=sharing)
 
+## Bibliography
+
+Two thesis contributed to the building of ErrorIST. They were developed by Tiago  Santos and Raquel Cristovão, and can be found [here](  https://fenix.tecnico.ulisboa.pt/departamentos/dei/dissertacao/565303595500952) and [here](https://fenix.tecnico.ulisboa.pt/downloadFile/281870113704582/76513%20-raquel%20-%20cristovao.pdf).
